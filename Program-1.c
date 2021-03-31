@@ -10,8 +10,9 @@
 
 #include <stdio.h>
 int main()
-{ char str[50];
-   printf("Enter a String: ");
+{ 
+  char str[50];
+printf("Enter a String: ");
 scanf("%s",str);
 printf("The input string is %s",str);  
  return 0;
